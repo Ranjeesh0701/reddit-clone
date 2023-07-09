@@ -8,6 +8,9 @@ import { Inter } from "next/font/google";
 export const metadata = {
   title: "Reddit",
   description: "A Reddit clone built with Next.js and TypeScript.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 const inter = Inter({ subsets: ["latin"] });
